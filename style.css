@@ -1,0 +1,22 @@
+*{
+box-sizing: border-box;
+margin: 0;
+
+}
+:root{
+--corbranca:#FFFFFF;
+--corlaranja:#FF9922;
+
+
+}
+.botao_entrar a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    left: 20px;
+
+}
+.cadastro {
+    color: var(--corlaranja)
+}
