@@ -6,17 +6,28 @@ margin: 0;
 :root{
 --corbranca:#FFFFFF;
 --corlaranja:#FF9922;
+--corlaranjaclaro: rgba(255, 136, 0, 0.15);
+--corazul:#0088AE;
+--corroxo: #A944FF;
+--fonte1:'Mochiy Pop One', sem serifa;
+--fonte2:'Raleway', sem serifa;
 
 
 }
-.botao_entrar a{
+.entrar {
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: uppercase;
+    font-family:var(--fonte1);
     text-decoration: none;
-    left: 20px;
+
 
 }
+
 .cadastro {
-    color: var(--corlaranja)
+    color: var(--corlaranja);
+    font-family:var(--fonte1);
+    text-decoration: none;
+}
+ header {
+    display: flex;
+    justify-items: center;
 }
