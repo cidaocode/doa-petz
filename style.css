@@ -1,22 +1,25 @@
-*{
-box-sizing: border-box;
-margin: 0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
 }
-:root{
---corbranca:#FFFFFF;
---corlaranja:#FF9922;
---corlaranjaclaro: rgba(255, 136, 0, 0.15);
---corazul:#0088AE;
---corroxo: #A944FF;
---fonte1:'Mochiy Pop One', sem serifa;
---fonte2:'Raleway', sem serifa;
+
+:root {
+    --corbranca: #FFFFFF;
+    --corlaranja: #FF9922;
+    --corlaranjaclaro: rgba(255, 136, 0, 0.15);
+    --corazul: #0088AE;
+    --corroxo: #A944FF;
+    --fonte1: 'Mochiy Pop One', sem serifa;
+    --fonte2: 'Raleway', sem serifa;
 
 
 }
+
 .entrar {
     color: black;
-    font-family:var(--fonte1);
+    font-family: var(--fonte1);
     text-decoration: none;
 
 
@@ -24,10 +27,45 @@ margin: 0;
 
 .cadastro {
     color: var(--corlaranja);
-    font-family:var(--fonte1);
+    font-family: var(--fonte1);
     text-decoration: none;
 }
- header {
+
+header {
+
+    height: 70px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    
+
+
+}
+
+.posicionamento_header {
+    width: 85%;
     display: flex;
-    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+
+   
+}
+.posicionamento_header img {
+    margin-left: 50px;
+}
+.posicionamento_header nav {
+    margin-left: 450px;
+}
+
+.botao_entrar {
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+ 
+    
+}
+section {
+    
+    display: flex;
+    justify-content: space-between;
 }
