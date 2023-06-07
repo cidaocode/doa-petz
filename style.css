@@ -13,7 +13,8 @@
     --corroxo: #A944FF;
     --fonte1: 'Mochiy Pop One', sem serifa;
     --fonte2: 'Raleway', sem serifa;
-    --color-cor-primaria-texto:#33303E;    
+    --color-cor-primaria-texto:#33303E;
+    
 
 }
 
@@ -116,5 +117,46 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.posicionamento_secao2 {
+    width:75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.mulher{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    /* align-items: 400px; */
+    /* width: 500px; */
+}
+.homem {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    /* align-items: 400px; */
+    /* width: 500px; */
+    /* height: 200px; */
+}
+.texto_mulher{
+    font-size: 40px;
+    font-family: var(--fonte2);
+    width: 50%;
+    font-weight: 700;
+    line-height: 64%;
+    text-align: center;
+
+
+}
+
+.texto_mulher p{
+    font-family: var(--fonte1);
+    font-size: 40px;
+
 }
 
